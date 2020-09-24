@@ -25,3 +25,15 @@ if (notaFinal < 5) {
 } else {
   console.log(`${notaFinal}`);
 }
+
+notaFinal < 5
+  ? console.log(`${notaFinal}: Suspenso`)
+  : notaFinal < 6
+  ? console.log(`${notaFinal}: Sufi`)
+  : notaFinal < 7
+  ? console.log(`${notaFinal}: Bien`)
+  : notaFinal < 9
+  ? console.log(`${notaFinal}: Notable`)
+  : notaFinal < 10
+  ? console.log(`${notaFinal}: Sobresaliente`)
+  : console.log(`${notaFinal}: Matricula`);
